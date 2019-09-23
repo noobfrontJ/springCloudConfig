@@ -11,6 +11,10 @@ eureka:
 spring:
   application:
     name: provider
+  rabbitmq:
+    username: ky
+    password: 'ky@2019!'
+    addresses: 120.25.227.129:5672,120.25.227.129:5673,120.25.227.129:5674
   redis:
     database: 0
     host: 120.25.227.129
